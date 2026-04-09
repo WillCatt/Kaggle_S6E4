@@ -1,0 +1,33 @@
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Binary / cache artefacts
+*.pkl
+*.pickle
+*.parquet
+*.csv
+
+# Training artefacts
+notebooks/checkpoints/
+notebooks/catboost_info/
+
+# Output folders
+models/*
+!models/.gitkeep
+
+submissions/*
+!submissions/.gitkeep
+
+# Optional generated images
+feature_importance.png
